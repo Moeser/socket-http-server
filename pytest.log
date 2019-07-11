@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.2, pytest-4.3.0, py-1.7.0, pluggy-0.8.1 -- /usr/local/opt/python/bin/python3.7
+cachedir: .pytest_cache
+rootdir: /Users/adevey/class/Python230A/lesson03/assignment/socket-http-server, inifile:
+collecting ... collected 11 items
+
+tests.py::WebTestCase::test_get_404 PASSED                               [  9%]
+tests.py::WebTestCase::test_get_sample_1_png PASSED                      [ 18%]
+tests.py::WebTestCase::test_get_sample_1_png_mime_type PASSED            [ 27%]
+tests.py::WebTestCase::test_get_sample_scene_balls_jpeg PASSED           [ 36%]
+tests.py::WebTestCase::test_get_sample_scene_balls_jpeg_mime_type PASSED [ 45%]
+tests.py::WebTestCase::test_get_sample_text_content PASSED               [ 54%]
+tests.py::WebTestCase::test_get_sample_text_mime_type PASSED             [ 63%]
+tests.py::WebTestCase::test_images_index PASSED                          [ 72%]
+tests.py::WebTestCase::test_ok_response_at_root_index PASSED             [ 81%]
+tests.py::WebTestCase::test_post_yields_method_not_allowed PASSED        [ 90%]
+tests.py::WebTestCase::test_root_index PASSED                            [100%]
+
+========================== 11 passed in 0.11 seconds ===========================
